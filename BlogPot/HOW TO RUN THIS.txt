@@ -1,0 +1,19 @@
+1> Download the BlogPot folder
+
+2> Open VS Code (or your favourite Python IDE)
+
+3> Drag and Drop the BlogPot folder in VS Code (Or Open the BlogPot folder in whatever IDE you're using)
+
+4> Type "python -m venv env2" in the terminal (make sure you're in the BlogPot directory)
+
+5> Now while, ur still in the BlogPot directory, put in "env2\scripts\activate"
+
+6> This will activate your virtual environment (The terminal should now begin with a "(env2)" followed by your directory)
+
+7> Now simply type in "pip install -r requirements.txt" to install all the required libraries.
+
+8> "python manage.py runserver"
+
+9> you should see an ip address in the terminal somwhere that looks similiar to "http://127.0.0.1:8000/".
+
+10> Put that in your browser and press enter
